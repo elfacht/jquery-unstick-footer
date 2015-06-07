@@ -13,7 +13,7 @@ See the [demo](http://codepen.io/elfacht/pen/Ejmmbj)
  	});
  
 #### CSS
-If you're not going to use the plugin CSS and wanna use a custom **baseClass**, be sure, that your CSS looks like this:
+If you're not going to use the plugin CSS and wanna use a custom **baseClass**, be sure, that your CSS looks something like this:
 
 	.yourBaseClass.is-sticky {
 	  bottom: 0;
