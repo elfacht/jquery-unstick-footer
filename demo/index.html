@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery Unstick Footer</title>
+  <link rel="stylesheet" href="../jquery.unstickFooter.css">
+  <link rel="stylesheet" href="demo.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="../jquery.unstickFooter.js"></script>
+</head>
+<body>
+
+<section class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum harum temporibus quaerat labore dolorem dignissimos voluptate incidunt quae quo, accusamus dolorum quas sequi eaque voluptas doloremque ipsa, vel aliquam!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum harum temporibus quaerat labore dolorem dignissimos voluptate incidunt quae quo, accusamus dolorum quas sequi eaque voluptas doloremque ipsa, vel aliquam!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum harum temporibus quaerat labore dolorem dignissimos voluptate incidunt quae quo, accusamus dolorum quas sequi eaque voluptas doloremque ipsa, vel aliquam!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum harum temporibus quaerat labore dolorem dignissimos voluptate incidunt quae quo, accusamus dolorum quas sequi eaque voluptas doloremque ipsa, vel aliquam!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum harum temporibus quaerat labore dolorem dignissimos voluptate incidunt quae quo, accusamus dolorum quas sequi eaque voluptas doloremque ipsa, vel aliquam!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum harum temporibus quaerat labore dolorem dignissimos voluptate incidunt quae quo, accusamus dolorum quas sequi eaque voluptas doloremque ipsa, vel aliquam!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum harum temporibus quaerat labore dolorem dignissimos voluptate incidunt quae quo, accusamus dolorum quas sequi eaque voluptas doloremque ipsa, vel aliquam!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum harum temporibus quaerat labore dolorem dignissimos voluptate incidunt quae quo, accusamus dolorum quas sequi eaque voluptas doloremque ipsa, vel aliquam!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum harum temporibus quaerat labore dolorem dignissimos voluptate incidunt quae quo, accusamus dolorum quas sequi eaque voluptas doloremque ipsa, vel aliquam!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum harum temporibus quaerat labore dolorem dignissimos voluptate incidunt quae quo, accusamus dolorum quas sequi eaque voluptas doloremque ipsa, vel aliquam!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum harum temporibus quaerat labore dolorem dignissimos voluptate incidunt quae quo, accusamus dolorum quas sequi eaque voluptas doloremque ipsa, vel aliquam!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum harum temporibus quaerat labore dolorem dignissimos voluptate incidunt quae quo, accusamus dolorum quas sequi eaque voluptas doloremque ipsa, vel aliquam!</p>
+</section>
+<aside class="sticky">
+  I'm sticky!
+</aside>
+<footer class="footer">
+  I'm the footer!
+</footer>
+
+
+<script>
+  $(function() {
+    $('.sticky').unstickFooter({
+      baseClass: 'unstf',
+      trigger: '.footer' // element that triggers the unsticking
+    });
+  });
+</script>
+</body>
+</html>
